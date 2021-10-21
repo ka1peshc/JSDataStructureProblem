@@ -56,3 +56,8 @@ else{
     console.log("The Second largest element in the array is: "+ second);
 }
 console.log("first min :"+first+" second max "+second);
+
+//Q2 Sorting array
+temp = 0;
+let SortedNumArr = NumArr.sort();
+console.log("second max "+SortedNumArr[(SortedNumArr.length -2)]+" second min "+SortedNumArr[1]);
